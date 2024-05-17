@@ -23,5 +23,3 @@ FROM debian:bullseye-slim As latest
 COPY --from=builder /work/deoss /
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 
-RUN apt install git curl wget vim util-linux -y
-

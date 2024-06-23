@@ -34,7 +34,7 @@ require (
 	golang.org/x/crypto v0.22.0
 )
 
-replace github.com/CESSProject/cess-go-sdk => github.com/EF09FE/cess-go-sdk v0.0.0-20240517064027-d931e107e03d
+replace github.com/CESSProject/cess-go-sdk => github.com/EF09FE/cess-go-sdk v0.0.0-20240623042510-8f68008d1ff8
 
 require (
 	github.com/ChainSafe/go-schnorrkel v1.0.0 // indirect
@@ -174,6 +174,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
+	github.com/vedhavyas/go-subkey v1.0.3 // indirect
 	github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	go.opencensus.io v0.24.0 // indirect

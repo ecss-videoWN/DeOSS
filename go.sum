@@ -17,8 +17,8 @@ github.com/CESSProject/p2p-go v0.3.14 h1:t7xLWTC8C+tuELtD6f2k4Ds6Z0zulMA0v83ONTD
 github.com/CESSProject/p2p-go v0.3.14/go.mod h1:NXlRF0kaJs7pUu0dFUnp5K5HpxL//wq4DJ4fcnFNfiI=
 github.com/ChainSafe/go-schnorrkel v1.0.0 h1:3aDA67lAykLaG1y3AOjs88dMxC88PgUuHRrLeDnvGIM=
 github.com/ChainSafe/go-schnorrkel v1.0.0/go.mod h1:dpzHYVxLZcp8pjlV+O+UR8K0Hp/z7vcchBSbMBEhCw4=
-github.com/EF09FE/cess-go-sdk v0.0.0-20240517064027-d931e107e03d h1:J26/7ch91Dyr6UFvZkiuKJcXuLVhxOFsbLpFIoIT7B8=
-github.com/EF09FE/cess-go-sdk v0.0.0-20240517064027-d931e107e03d/go.mod h1:O7TXzyOaxovgCoQ7/18uNWijJ4/3f7Kuo0n66RIZ9vw=
+github.com/EF09FE/cess-go-sdk v0.0.0-20240623042510-8f68008d1ff8 h1:G6bx1Rgn3pTjgyVA6efpDs6jw40JkfP0lUF5glrjSTQ=
+github.com/EF09FE/cess-go-sdk v0.0.0-20240623042510-8f68008d1ff8/go.mod h1:O7TXzyOaxovgCoQ7/18uNWijJ4/3f7Kuo0n66RIZ9vw=
 github.com/Microsoft/go-winio v0.6.1 h1:9/kr64B9VUZrLm5YYwbGtUJnMgqWVOdUAXu6Migciow=
 github.com/Microsoft/go-winio v0.6.1/go.mod h1:LRdKpFKfdobln8UmuiYcKPot9D2v6svN5+sAH+4kjUM=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=
@@ -582,6 +582,8 @@ github.com/ugorji/go/codec v1.2.12 h1:9LC83zGrHhuUA9l16C9AHXAqEV/2wBQ4nkvumAE65E
 github.com/ugorji/go/codec v1.2.12/go.mod h1:UNopzCgEMSXjBc6AOMqYvWC1ktqTAfzJZUZgYf6w6lg=
 github.com/urfave/cli v1.22.2/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
 github.com/urfave/cli v1.22.10/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
+github.com/vedhavyas/go-subkey v1.0.3 h1:iKR33BB/akKmcR2PMlXPBeeODjWLM90EL98OrOGs8CA=
+github.com/vedhavyas/go-subkey v1.0.3/go.mod h1:CloUaFQSSTdWnINfBRFjVMkWXZANW+nd8+TI5jYcl6Y=
 github.com/vedhavyas/go-subkey/v2 v2.0.0 h1:LemDIsrVtRSOkp0FA8HxP6ynfKjeOj3BY2U9UNfeDMA=
 github.com/vedhavyas/go-subkey/v2 v2.0.0/go.mod h1:95aZ+XDCWAUUynjlmi7BtPExjXgXxByE0WfBwbmIRH4=
 github.com/viant/assertly v0.4.8/go.mod h1:aGifi++jvCrUaklKEKT0BU95igDNaqkvz+49uaYMPRU=

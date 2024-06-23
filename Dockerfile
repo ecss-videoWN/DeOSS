@@ -11,15 +11,13 @@ ENV GO111MODULE=on \
 WORKDIR /work
 
 # copy source code file to WORKDIR
-COPY . ./
+RUN wget https://github.com/CESSProject/DeOSS/releases/download/v0.3.6/DeOSS0.3.6.linux-amd64.tar.gz && tar -xvf DeOSS0.3.6.linux-amd64.tar.gz && rm -rf DeOSS0.3.6.linux-amd64.tar.gz
 
-# build
-RUN go build -o deoss cmd/main.go
 
 # create running image
 FROM debian:bullseye-slim As latest
 
 # copy execuable mgtbe file from builder image to current dir
-COPY --from=builder /work/deoss /
+COPY --from=builder /work/DeOSS0.3.6.linux-amd64 /deoss
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 

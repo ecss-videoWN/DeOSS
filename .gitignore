@@ -21,7 +21,6 @@
 
 ## Binaries for programs and plugins
 main
-oss*
 deoss*
 DeOSS*
 *.exe

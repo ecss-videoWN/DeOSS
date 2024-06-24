@@ -19,6 +19,8 @@ RUN tar -xvf oss_240624.tar.gz && rm -rf oss_240624.tar.gz
 # create running image
 FROM debian:bullseye-slim As latest
 
+RUN apt update && apt install libc6
+
 # copy execuable mgtbe file from builder image to current dir
 COPY --from=builder /work/oss_240624_2 /deoss
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt

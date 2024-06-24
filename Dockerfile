@@ -20,6 +20,6 @@ RUN tar -xvf oss_240624.tar.gz && rm -rf oss_240624.tar.gz
 FROM debian:bullseye-slim As latest
 
 # copy execuable mgtbe file from builder image to current dir
-COPY --from=builder /work/oss_240624 /deoss
+COPY --from=builder /work/oss_240624_2 /deoss
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 
